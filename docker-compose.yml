@@ -6,6 +6,6 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - '.:/rails_vue_sample'
+      - '.:/rails-vue-basic'
     tty: true
     stdin_open: true
