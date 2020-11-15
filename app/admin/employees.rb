@@ -5,7 +5,8 @@ ActiveAdmin.register Employee do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :name, :department, :gender, :birth, :joined_date, :payment, :note, :lock_version
+  permit_params :name, :department, :gender, :birth, :joined_date, :payment, :note
+  # , :lock_version
   #
   # or
   #
