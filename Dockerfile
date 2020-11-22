@@ -11,5 +11,5 @@ apt-get update && apt-get install -y yarn
 WORKDIR /rails-vue-basic
 COPY Gemfile Gemfile.lock /rails-vue-basic/
 RUN bundle install
-RUN yarn add axios
-RUN yarn add vue-router
+RUN yarn
+RUN yarn add axios vue-router bootstrap jquery popper.js
